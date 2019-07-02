@@ -1,4 +1,0 @@
-Options +FollowSymLinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www.houseofkrause.org(.*)$ [NC]
-RewriteRule ^(.*)$ http://houseofkrause.org%1 [R=301,L]
